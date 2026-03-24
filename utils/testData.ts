@@ -1,5 +1,7 @@
-export const testSites = {
-  saucedemo: { login: 'https://www.saucedemo.com' },
+﻿export const testSites = {
+  saucedemo: {
+    login: 'https://www.saucedemo.com',
+  },
   demoqa: {
     textBox: 'https://demoqa.com/text-box',
     buttons: 'https://demoqa.com/buttons',
@@ -10,8 +12,9 @@ export const testSites = {
     article: 'https://en.wikipedia.org/wiki/Software_testing',
   },
 };
+
 export const wcagTags = {
-  wcag2a: ['wcag2a'],
-  wcag2aa: ['wcag2a', 'wcag2aa'],
+  wcag2a:   ['wcag2a'],
+  wcag2aa:  ['wcag2a', 'wcag2aa'],
   wcag21aa: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'],
 };
